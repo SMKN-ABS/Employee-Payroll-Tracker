@@ -7,7 +7,7 @@ const addNewEmployee = (data) => {
   return employeeData;
 };
 
-const employeeExists = (id) => employeeData.some(emp => emp.id === id);
+const employeeExists = (id) => employeeData.some(employee => employee.id === id);
 
 
 module.exports = { addNewEmployee, employeeExists};
