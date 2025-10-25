@@ -1,0 +1,10 @@
+{ 
+"employeeData":[
+  { "id": 101, "name": "Rahul", "role": "Software Engineer", "basicPay": 55000 },
+  { "id": 102, "name": "Priya", "role": "UI/UX Designer", "basicPay": 48000 },
+  { "id": 103, "name": "Rohan", "role": "Project Manager", "basicPay": 70000 },
+  { "id": 104, "name": "Meera", "role": "QA Tester", "basicPay": 40000 },
+  { "id": 105, "name": "Dev", "role": "HR Executive", "basicPay": 45000 },
+  { "id": 106, "name": "Sneha", "role": "Accountant", "basicPay": 50000 }
+]
+}
