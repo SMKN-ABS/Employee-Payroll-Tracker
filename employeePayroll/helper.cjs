@@ -1,5 +1,5 @@
 const config = require('./config.json');
-let { employeeData } = config;
+let { employeeData} = config;
 
 const addNewEmployee = (data) => {
   const { id, name, role, basicPay } = data;
@@ -8,6 +8,5 @@ const addNewEmployee = (data) => {
 };
 
 const employeeExists = (id) => employeeData.some(employee => employee.id === id);
-
 
 module.exports = { addNewEmployee, employeeExists};

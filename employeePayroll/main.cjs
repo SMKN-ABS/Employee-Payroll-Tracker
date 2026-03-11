@@ -1,6 +1,4 @@
-
-
-const { addNewEmployee, employeeExists } = require('./helper.cjs');
+const { addNewEmployee, employeeExists} = require('./helper.cjs');
 
 
 const registerEmployee = (data) => {
@@ -9,6 +7,7 @@ const registerEmployee = (data) => {
     ? `Employee with ID ${id} already exists.`
     : addNewEmployee({ id, name, role, basicPay });
 };
+
 
 
 console.log(registerEmployee({ id: 107, name: "Nilofer", role: "QA Tester", basicPay: 15000 }));
